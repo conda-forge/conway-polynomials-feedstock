@@ -27,7 +27,7 @@ test:
     - conway_polynomials
   commands:
     - pip check
-    - pytest --doctest-modules --doctest-glob='*.py'
+    - "pytest --doctest-modules --doctest-glob='*.py'"
   requires:
     - pip
     - pytest
